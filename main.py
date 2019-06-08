@@ -1,4 +1,11 @@
 import discord
+from discord.ext import commands
+from discord.ext import Bot
+import asyncio
+import random
+import requests
+import os
+
 
 TOKEN = 'NTg2NTc0MDA2NTM5Mzg2OTU1.XPqKCg.NPcGoo5ZoW4VE82GgF2z5EUcers'
 client = discord.Client()
