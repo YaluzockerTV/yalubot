@@ -25,4 +25,4 @@ async def on_ready():
     print('chekc my website to start www.website.com')
     print('------')
 
-bot token:client.run(str(os.environ.get('BOT_TOKEN')))
+client.run(str(os.environ.get('BOT_TOKEN')))
