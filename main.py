@@ -6,8 +6,6 @@ import random
 import requests
 import os
 
-
-TOKEN = 'NTg2NTc0MDA2NTM5Mzg2OTU1.XPqKCg.NPcGoo5ZoW4VE82GgF2z5EUcers'
 client = discord.Client()
 
 
@@ -24,7 +22,7 @@ async def on_message(message):
 async def on_ready():
     print('Logged in as')
     print('client.user.name')
-    print('client.user-id')
+    print('chekc my website to start www.website.com')
     print('------')
 
-client.run('TOKEN')
+bot token:client.run(str(os.environ.get('BOT_TOKEN')))
